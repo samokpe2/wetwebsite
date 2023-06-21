@@ -175,6 +175,7 @@ footer{
     
     .welcome-button{
         width:fit-content;
+        margin-bottom:20px;
     }
 
     .header{
