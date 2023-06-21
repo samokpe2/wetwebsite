@@ -202,8 +202,9 @@ footer{
     }
 
     .about-text{
+        font-size: 24px;
         margin-top: 0px !important;
-        text-align: justify !important;
+        text-align: center !important;
     }
 
     .product{
