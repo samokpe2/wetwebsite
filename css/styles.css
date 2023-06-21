@@ -212,10 +212,12 @@ footer{
     }
 
     .merch-header{
+        font-size: 64px;
         text-align: center;
     }
 
     .merch-text{
+        font-size: 24px;
         text-align: center;
     }
 
