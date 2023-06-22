@@ -1,6 +1,6 @@
-var images = ["img/firstbanner.jpg",
-                "img/secondbanner.jpg",
-                "img/thirdbanner.jpg",
+var images = ["img/firstbanner.webp",
+                "img/secondbanner.webp",
+                "img/thirdbanner.webp",
              ];
 
 function getRandomInt() {

@@ -18,7 +18,7 @@ html,body {
 .header{
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../img/firstbanner.jpg);
     background-size: cover;
-    height: 120vh;
+    height: 110vh;
     width: 100%;
     clip-path: url(#mask1);
     transition:1s; 
@@ -33,13 +33,13 @@ html,body {
     padding-top: 170px;
 }
 .welcome-text{
-    font-size: 96px;
+    font-size: 64px;
 }
 
 .welcome-button{
     background-color: #CA2C27 !important;
     color: white;
-    width: 30%;
+    width: 20%;
     border-radius: 50px !important;
 }
 
@@ -126,20 +126,18 @@ html,body {
 
 .rightmockup{
     object-fit:cover;
-    object-position: 120% -20%;
-    transform: scale(1.1);
     z-index: 0;
 }
 
+
+
 .leftmockup{
     object-fit:cover;
-    object-position: -20% 120%;
-    transform: scale(1.1);
     z-index: 0;
 }
 
 .middlemockup{
-    transform: scale(1.5);
+    transform: scale(1.3);
     z-index: 1000;
 }
 
@@ -154,6 +152,11 @@ html,body {
     border-radius: 50px !important;
     background-color : #CA2C27 !important;
     color: white;
+}
+
+.mockup img{
+    height:500px;
+    object-fit: contain;
 }
 
 
@@ -184,8 +187,7 @@ footer{
     }
 
     .leftmockup{
-        transform: scale(1);
-        object-position: -20% 120%;
+        transform: scale(0.8);
     }
 
     .middlemockup{
@@ -193,8 +195,7 @@ footer{
     }
 
     .rightmockup{
-        transform: scale(1);
-        object-position: 120% -20%;
+        transform: scale(0.8);
     }
 
     .about-header{
